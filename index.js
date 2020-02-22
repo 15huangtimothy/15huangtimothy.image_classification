@@ -1,15 +1,13 @@
 CLASSES = {
-    0: 'class0',
-    1: 'class1',
-    2: 'class2',
-    3: 'class3',
-    4: 'class4'
+    0: 'Alma Mater',
+    1: 'Le Marteleur',
+    2: 'Le Penseur'
 };
 
 const MODEL_PATH = document.URL + 'model.json';
 
 const IMAGE_SIZE = 192;
-const TOPK_PREDICTIONS = 5;
+const TOPK_PREDICTIONS = 3;
 
 let my_model;
 const demo = async () => {
